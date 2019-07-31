@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设计网站的登陆</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+        .class1{
+            /*width: 10px;*/
+            /*height: 10px;*/
+            /*border:5px dotted red;*/
+            background-repeat: repeat;
+            background-image: url("zzh测试.jpg");
+        }
+       /*.class2{*/
+       /*    width: 200px;*/
+       /*    height: 200px;*/
+       /*    background-color: #ffef44;*/
+       /*}*/
+        #bg{
+            width: 128px;
+            height: 128px;
+        }
+        #bg:hover{
+            transition-delay: 150ms;
+            transition-duration: 700ms;
+            width: 300px;
+            height: 300px;
+        }
+        #bg1{
+             width: 128px;
+             height: 128px;
+         }
+        #bg1:hover{
+            transition-delay: 150ms;
+            transition-duration: 700ms;
+            width: 300px;
+            height: 300px;
+        }
+        #bg2{
+            width: 128px;
+            height: 128px;
+        }
+        #bg2:hover{
+            transition-delay: 150ms;
+            transition-duration: 700ms;
+            width: 300px;
+            height: 300px;
+        }
+        #bg3{
+              width: 128px;
+              height: 128px;
+          }
+        #bg3:hover{
+            transition-delay: 150ms;
+            transition-duration: 700ms;
+            width: 300px;
+            height: 300px;
+        }
+        #bg4{
+            width: 128px;
+            height: 128px;
+        }
+        #bg4:hover{
+            transition-delay: 150ms;
+            transition-duration: 700ms;
+            width: 300px;
+            height: 300px;
+        }
+        #bg5{
+            width: 128px;
+            height: 128px;
+        }
+        #bg5:hover{
+            transition-delay: 150ms;
+            transition-duration: 700ms;
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body class="class1">
+<input type="date">
+<br>
+<input type="time">
+<img id="bg" style="margin:0px 20px -100px 1100px"  src="zzh测试.jpg" >
+<img id="bg1" style="margin:0px 20px -100px 1100px" src="zzh测试1.jpg">
+<img id="bg2" style="margin: 0px 20px -100px 1100px" src="zzh测试2.jpg">
+<img id="bg3" style="margin: 0px 20px -100px 1100px" src="zzh测试3.jpg">
+<img id="bg4" style="margin:0px 20px -100px 1100px"  src="zzh测试4.jpg" >
+<img id="bg5" style="margin:0px 20px -100px 1100px" src="zzh测试5.jpg">
+<!--<img id="bg" src="zzh测试.jpg" width="128px" >-->
+<audio src="大碗宽面.mp3" controls></audio>
+<form id="login-form" action="#" method="post">
+    <fieldset>
+        <p>登陆</p>
+        <label for="login-form">Email</label>
+        <input type="text" id="login" name="login"/>
+        <div class="clear"></div>
+        <label for="password">密码</label>
+        <input type="password" id="password" name="password"/>
+        <div class="clear"></div>
+        <br>
+        <label for="remember_me" style="padding: 0;">记住状态？</label>
+        <input type="checkbox" id="remember_me" style="position: relative;top:3px; margin:0;" name="remrember_me"/>
+        <div class="clear"></div>
+        <br>
+        <input type="submit" style="margin: -20px 0 0 287px;" class="button" name="commit" value="登陆"/>
+    </fieldset>
+</form>
+<p align="center"><strong>&copy;www.xxxxxx.cn</strong></p>
+</body>
+</html>
